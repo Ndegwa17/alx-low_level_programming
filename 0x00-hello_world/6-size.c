@@ -2,15 +2,21 @@
 
 /**
  * main -Entry point
- *
+ * Description: "prints the size of various types"
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	printf("Size of char: %ld byte(s)\n", sizeof(char));
-	printf("Size of an int: %ld byte(s)\n", sizeof(int));
-	printf("Size of a long int: %ld byte(s)\n", sizeof(long int));
-	printf("Size of a long long int: %ld byte(s)\n", sizeof(long long int));
-	printf("Size of a float: %ld byte(s)\n", sizeof(float) );
+	int v;
+	char y;
+	float w;
+	long int x;
+	long long int z;
+
+	printf("Size of char: %lu byte(s)\n", sizeof(y));
+	printf("Size of an int: %lu byte(s)\n", sizeof(v));
+	printf("Size of a long int: %lu byte(s)\n", sizeof(x));
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(z));
+	printf("Size of a float: %lu byte(s)\n", sizeof(w));
 	return (0);
 }
