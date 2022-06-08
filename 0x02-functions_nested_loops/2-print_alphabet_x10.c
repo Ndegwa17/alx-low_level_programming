@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * main - uses built in functions
  * print_alphabet_x10 - prints out the alphabet
- * Return: 0 (success)
+ * main -uses built in function
  */
 
 void print_alphabet_x10(void)
@@ -20,3 +19,4 @@ void print_alphabet_x10(void)
 		_putchar('\n');
 	}
 	return (0);
+}
